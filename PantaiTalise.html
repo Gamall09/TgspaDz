@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Container for flexboxes */
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* Style the navigation menu */
+nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Style the content */
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+</style>
+</head>
+<body>
+<header>
+  <h2>Palu</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="TamanLoreLindu.html">Taman Nasional Lore Lindu</a></li>
+      <li><a href="PantaiTalise.html">Pantai Talise</a></li>
+      <li><a href="Monument.html">Monument Nosarara Nosabatutu</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <img src="pantai.jpg">
+    <h1>Pantai Talise</h1>
+    <p>Pantai Talise adalah sebuah pantai yang berlokasi tidak jauh dari Kota Palu, Sulawesi Tengah. Atau lebih tepatnya di sepanjang Teluk Palu. Pantai Talise berada di sepanjang Jalan Rajamoli sampai Jalan Cut Mutia, Palu, Sulawesi Tengah. Akses menuju obyek wisata pantai ini pun juga sangat mudah, murah dan meriah. Pantai Talise ini terletak langsung di depan Teluk Palu dan pantai ini juga memiliki pasir putih dengan ombaknya yang tenang memukau. Sudah banyak fasilitas yang dibangun disini. Memandang keindahan teluk dari Pantai Talise di atas sepeda motor anda atau dalam mobil anda sangat menjanjikan untuk menghabiskan waktu di sore hari di Pantai Talise </p>
+  </article>
+</section>
+
+<footer>
+  <p>M.Syah Gamal Rosyada</p>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    box-sizing: border-box;
+}
+body{
+height: 100vh; 
+display: grid;
+place-items: center;
+background:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,
+0.6)), url(purple.jpg); 
+background-size: 100% 100%;
+background-repeat: no-repeat;
+}
+h1{
+    color: #FABB54;        
+    text-shadow: 2px 2px 1px black;
+    font-size: 58px;
+    margin-left: 40px;
+    margin-top: 50px;
+    }
+.container{
+  background-color: white;
+  width: auto;
+  height: auto;
+  position: relative;
+  border-radius: 15px;
+  box-shadow: 15px 15px 15px;
+}
+.custom-table{
+    width: 45%;
+    margin-right: 25px;
+}
+.custom-table tr{
+    background-color: #6D529F;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.custom-table td {
+    padding: 7px; 
+    border-radius: 5px;
+  }
+
+.jadwal{
+    margin-top: 40px;
+    width: 96%;
+    margin-left: 35px;
+}
+
+.jadwal tr{
+    background-color: #6D529F;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.jadwal td{
+    padding: 12px;
+    border-radius: 5px;
+  }
+
+.time{
+    background-color: #6D529F;
+    color: white;
+    font-size: 16px;
+    letter-spacing: 1px;
+    width: 158px;
+}
+
+.istirahat{
+    background-color: #E8E5F0;
+    color: #6D529F;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.mapel{
+    background-color: #E8E5F0;
+    color: #6D529F;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
